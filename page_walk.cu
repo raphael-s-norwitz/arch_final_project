@@ -13,6 +13,9 @@
 --Instance type: g2.2xlarge
 --AMI Id: NVIDIA CUDA 7.5 Toolkit on Amazon Linux-0ce7aca3-5b96-4ff4-8396-05245687380a-ami-52420645.3 (ami-52f7b345)
 
+CUDA examples used:
+https://raw.githubusercontent.com/berkeley-scf/gpu-workshop-2016/master/kernelExample.cu
+
   Software Usage:
 --compile: nvcc page_walk.cu -o page_walk.out
 --output: ./page_walk.out -n <total addresses> <intermediate table parameters>
